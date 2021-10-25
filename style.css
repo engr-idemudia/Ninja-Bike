@@ -1,0 +1,79 @@
+/*/////////////////
+// BIKE WEBSITE //
+// BUILD       //
+////////////////*/
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+#main-navigator{
+    background: #181818;
+    padding: 10px;
+}
+#main-navigator ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+
+}
+#main-navigator li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#main-navigator a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px;
+}
+#main-navigator a.current{
+    color: #8f746c;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    
+    
+}
+#main-navigator a.current:hover{
+    color: blue;
+    background-color: chartreuse;
+}
+#Lead-banner img{
+    width: 100%;
+}
+#shop{
+    margin: 30px 0;
+    text-align: center;
+    
+}
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#shop span.price{
+    display: block;
+    font-size: 58px;
+}
+#shop a.add-to-bag{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: #8f746c;
+    padding: 10px 0;
+    border: 2px solid #8f746c;
+    width: 210px;
+    margin: 20px auto;
+}
+#shop a.add-to-bag:hover{
+    color: #fff;
+    background: #8f746c;
+}
+
+
